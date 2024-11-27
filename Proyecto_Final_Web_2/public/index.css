@@ -1,0 +1,94 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background: rgb(2,0,36);
+    background: linear-gradient(133deg, rgba(2,0,36,1) 0%, rgba(36,103,181,1) 72%, rgba(0,212,255,1) 100%);
+    color: #ffffff;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+h1 {
+    font-family: 'Arial', sans-serif;
+    font-size: 3rem;
+    font-weight: bold;
+    color: #ffffff;
+    text-transform: uppercase;
+    text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.6);
+    margin: 20px 0;
+    letter-spacing: 3px;
+    text-align: center;
+    background: rgba(0, 0, 0, 0.3);
+    padding: 10px 20px;
+    border-radius: 10px;
+}
+
+table {
+    width: 80%;
+    margin: 30px auto;
+    border-collapse: collapse;
+    background: rgba(0, 0, 0, 0.7);
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
+}
+
+th, td {
+    padding: 15px 20px;
+    text-align: center;
+    color: #ffffff;
+    font-size: 1.1rem;
+}
+
+th {
+    background-color: #333;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+tr:nth-child(even) {
+    background-color: #444;
+}
+
+tr:hover {
+    background-color: #555;
+    cursor: pointer;
+}
+
+a {
+    color: #ff6600;
+    background-color: transparent;
+    text-decoration: none;
+    padding: 8px 15px;
+    border-radius: 8px;
+    border: 1px solid #ff6600; /* Añadido borde naranja */
+    transition: all 0.3s ease;
+}
+
+a:hover {
+    background-color: #ff6600;
+    color: white;
+    transform: scale(1.05);
+}
+
+.add-user {
+    display: inline-block;
+    margin: 20px auto;
+    background-color: transparent;  /* Fondo transparente */
+    color: #0077ff;                  /* Color del texto */
+    text-decoration: none;
+    padding: 12px 20px;
+    border-radius: 8px;
+    border: 1px solid #0077ff;       /* Borde azul */
+    font-size: 1.2rem;
+    transition: all 0.3s ease;
+}
+
+.add-user:hover {
+    background-color: #0077ff;      /* Fondo azul */
+    color: white;                   /* Texto blanco al hacer hover */
+    transform: scale(1.05);
+}
